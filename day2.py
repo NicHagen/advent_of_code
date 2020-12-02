@@ -1,7 +1,7 @@
 mylist = ['1-3 a: abcde', '1-3 c: cdefg', '2-9 c: ccccccccc']
 
 
-
+# Part 1
 # count = 0
 # with open('day2.txt', 'r') as f:
 #     for line in f:
@@ -14,6 +14,7 @@ mylist = ['1-3 a: abcde', '1-3 c: cdefg', '2-9 c: ccccccccc']
 #         if lower <= password.count(char) <= upper:
 #             count += 1
 
+# Part 2
 count = 0
 with open('day2.txt', 'r') as f:
     for line in f:

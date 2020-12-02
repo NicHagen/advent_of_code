@@ -1,5 +1,6 @@
 myarray = [1721, 979, 366, 299, 675, 1456]
 
+# Part 1
 def sum2020(n):
     for i in range(len(n) - 1):
         for j in range(i + 1, len(n)):
@@ -13,6 +14,7 @@ with open('day1.txt', 'r') as f:
 
 # print(sum2020(expenses))
 
+# Part 2
 def sum2020part2(n):
     for i in range(len(n) - 2):
         for j in range(i + 1, len(n) - 1):
